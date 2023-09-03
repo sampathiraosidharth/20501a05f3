@@ -5,7 +5,7 @@ const axios = require('axios');
 const app = express();
 
 // Allow requests from your React app's domain (replace with your actual domain)
-const allowedOrigins = ['http://localhost:3000','http://localhost:3001','http://localhost:3002']; // Update this with your React app's domain
+const allowedOrigins = ['http://localhost:3000','http://localhost:3001','http://localhost:3003']; // Update this with your React app's domain
 
 app.use(
   cors({
